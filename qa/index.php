@@ -7,6 +7,8 @@
     <title>QA</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a1b45a4cbe.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
  <!-- Search Bar -->
@@ -89,6 +91,28 @@
   
 </section>
 
+ <!-- FAQ -->
+ <section class="bg-light text-light p-3 align-items-center justify-content-between">
+   <div class="container">
+
+   <h1 class="text-dark p-4"><u>FAQs (Frequently asked Questions)</u></h1>
+   
+   <div class="organic-intro">
+   <h1><span class="text-dark">What is Organic Farming?</span></h1>
+    <p class="text-dark">The method of agriculture system which doesn't involve the use of any kind of chemicals like chemical fertilizers and pesticides. Instead natural products like manure,green manure and compost are used.</p>
+     <p class="text-dark">Organic farming continues to be developed by various organizations today. Biological pest control, mixed cropping and the fostering of insect predators are encouraged. Organic standards are designed to allow the use of naturally-occurring substances while prohibiting or strictly limiting synthetic substances.</p> 
+     
+     <div class="bg-dark">
+   <i class="fa fa-star " data-index="0"></i>
+        <i class="fa fa-star" data-index="1"></i>
+        <i class="fa fa-star" data-index="2"></i>
+        <i class="fa fa-star " data-index="3"></i>
+        <i class="fa fa-star" data-index="4"></i>
+        <br><br>
+        </div>
+        </div>  
+   </div>
+</section>
 
 
 
@@ -96,5 +120,8 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="rating.js"></script>
+<script src="https://kit.fontawesome.com/a1b45a4cbe.js" crossorigin="anonymous"></script>
 </body>
 </html>
