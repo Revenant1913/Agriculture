@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,7 @@
     <title>QA</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ratingstyle.css">
     <script src="https://kit.fontawesome.com/a1b45a4cbe.js" crossorigin="anonymous"></script>
     
 </head>
@@ -51,32 +54,82 @@
       <div class="row text-center">
         <div class="col-md">
           <div class="thumbnail">
-            <a href="#">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#bannerformmodal">
               <img src="QA1.jpg" alt="Lights" style="width:25%">
               <div class="caption">
                 <h4 class="text-success">Add Image</h4>
               </div>
             </a>
+            <div class="modal fade bannerformmodal" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true" id="bannerformmodal">
+            <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+      
+               <input type='file' accept="image/*" class="profile-img"placeholder="">
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+ </div>
           </div>
         </div>
+        <!-- Audio -->
         <div class="col-md">
           <div class="thumbnail">
-            <a href="#">
+            <a href="#bannerformmodal2" data-toggle="modal" data-target="#bannerformmodal2">
               <img src="QA2.png" alt="Nature" style="width:20%">
               <div class="caption">
                 <h4 class="text-success">Add audio</h4>
               </div>
             </a>
+            <div class="modal fade bannerformmodal2" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal2" aria-hidden="true" id="bannerformmodal2">
+            <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+      
+      <input type='file' accept="audio/*" placeholder="" class="profile-aud">
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+ </div> 
           </div>
         </div>
+        <!-- video -->
         <div class="col-md">
           <div class="thumbnail">
-            <a href="#">
+          <a href="#bannerformmodal3" data-toggle="modal" data-target="#bannerformmodal3">
               <img src="QA3.png" alt="Fjords" style="width:25%">
               <div class="caption">
                 <h4 class="text-success">Add Video</h4>
               </div>
             </a>
+            <div class="modal fade bannerformmodal3" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal3" aria-hidden="true" id="bannerformmodal3">
+            <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+      
+      <input type='file' accept="audio/*" placeholder="" class="profile-aud">
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+ </div> 
           </div>
         </div>
         
@@ -99,16 +152,62 @@
    
    <div class="organic-intro">
    <h1><span class="text-dark">What is Organic Farming?</span></h1>
-    <p class="text-dark">The method of agriculture system which doesn't involve the use of any kind of chemicals like chemical fertilizers and pesticides. Instead natural products like manure,green manure and compost are used.</p>
-     <p class="text-dark">Organic farming continues to be developed by various organizations today. Biological pest control, mixed cropping and the fostering of insect predators are encouraged. Organic standards are designed to allow the use of naturally-occurring substances while prohibiting or strictly limiting synthetic substances.</p> 
+    <p class="text-dark">The agriculture is really growing these days and I thought it would be a good way for me to get started into this with the help of organic farming. So can someone help me to get started with the basics of it?</p>
+
      
-     <div class="bg-dark">
-   <i class="fa fa-star " data-index="0"></i>
-        <i class="fa fa-star" data-index="1"></i>
-        <i class="fa fa-star" data-index="2"></i>
-        <i class="fa fa-star " data-index="3"></i>
-        <i class="fa fa-star" data-index="4"></i>
+     
+    <div class="bg-dark">
+    <fieldset id='demo1' class="rating">
+  <input class="stars" type="radio" id="1star_a-5" name="1rating" value="5" />
+  <label class="full" for="1star_a-5" title="5 stars"></label>
+  <input class="stars" type="radio" id="1star_a_5-half" name="1rating" value="4.5" />
+  <label class="half" for="1star_a_5-half" title="4.5 stars"></label>
+  <input class="stars" type="radio" id="1star_a-4" name="1rating" value="4" />
+  <label class="full" for="1star_a-4" title="4 stars"></label>
+  <input class="stars" type="radio" id="1star_a_4-half" name="1rating" value="3.5" />
+  <label class="half" for="1star_a_4-half" title="3.5 stars"></label>
+  <input class="stars" type="radio" id="1star_a-3" name="1rating" value="3" />
+  <label class="full" for="1star_a-3" title="3 stars"></label>
+  <input class="stars" type="radio" id="1star_a_3-half" name="1rating" value="2.5" />
+  <label class="half" for="1star_a-3-half" title="2.5 stars"></label>
+  <input class="stars" type="radio" id="1star2" name="1rating" value="2" />
+  <label class="full" for="1star2" title="2 stars"></label>
+  <input class="stars" type="radio" id="1star2half" name="1rating" value="1.5" />
+  <label class="half" for="1star2half" title="1.5 stars"></label>
+  <input class="stars" type="radio" id="1star1" name="1rating" value="1" />
+  <label class="full" for="1star1" title="1 star"></label>
+  <input class="stars" type="radio" id="1starhalf" name="rating" value="0.5" />
+  <label class="half" for="1starhalf" title="0.5 stars"></label>
+</fieldset>
+
         <br><br>
+        
+        </div>
+        <label for="exampleFormControlTextarea1"><h4 class="text-dark py-3">Answer this question:-</h4></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <div class="bg-dark">
+    <fieldset id='demo2' class="rating">
+    <input class="stars" type="radio" id="2star_a-5" name="2rating" value="5" />
+    <label class="full" for="2star_a-5" title="5 stars"></label>
+    <input class="stars" type="radio" id="2star_a_5-half" name="2rating" value="4.5" />
+    <label class="half" for="2star_a_5-half" title=" 4.5 stars"></label>
+    <input class="stars" type="radio" id="2star_a-4" name="2rating" value="4" />
+    <label class="full" for="2star_a-4" title="4 stars"></label>
+    <input class="stars" type="radio" id="2star_a_4-half" name="2rating" value="3.5" />
+    <label class="half" for="2star_a_4-half" title="3.5 stars"></label>
+    <input class="stars" type="radio" id="2star_a-3" name="2rating" value="3" />
+    <label class="full" for="2star_a-3" title="3 stars"></label>
+    <input class="stars" type="radio" id="2star_a_3-half" name="2rating" value="2.5" />
+    <label class="half" for="2star_a-3-half" title="2.5 stars"></label>
+    <input class="stars" type="radio" id="2star2" name="2rating" value="2" />
+    <label class="full" for="2star2" title="2 stars"></label>
+    <input class="stars" type="radio" id="2star2half" name="2rating" value="1.5" />
+    <label class="half" for="2star2half" title="1.5 stars"></label>
+    <input class="stars" type="radio" id="2star1" name="2rating" value="1" />
+    <label class="full" for="2star1" title=" 1 star"></label>
+    <input class="stars" type="radio" id="2starhalf" name="2rating" value="0.5" />
+    <label class="half" for="2starhalf" title=" 0.5 stars"></label>
+  </fieldset>
         </div>
         </div>  
    </div>
@@ -123,5 +222,8 @@
 <script src="http://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
 <script src="rating.js"></script>
 <script src="https://kit.fontawesome.com/a1b45a4cbe.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://www.bootstraptoggle.com/js/bootstrap-toggle.js"></script>
+<!-- <script src="capture.js"></script> -->
 </body>
 </html>
