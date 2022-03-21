@@ -19,6 +19,14 @@
   background-color: lightblue;
 }
 
-list-custom{
+.list-custom{
   background-color: lightblue;
+}
+
+.expert-img{
+ width: 20%;
+}
+
+.expert-info{
+  align-items: flex-start;
 }
